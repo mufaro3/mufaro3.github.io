@@ -1,0 +1,13 @@
+# Site settings
+title: "nickelulz's homepage"
+footer_message: "close the world, open the next"
+baseurl: "/"
+url: "https://nickelulz.github.io"
+
+# Personal Information
+username: "nickelulz"
+public_email: "nickelulz@proton.me"
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title/
