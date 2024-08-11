@@ -1,6 +1,7 @@
 # Site settings
 title: "nickelulz's homepage"
 footer_message: "close the world, open the next"
+domain: nickelulz.github.io
 baseurl: "/"
 url: "https://nickelulz.github.io"
 
