@@ -1,78 +1,111 @@
+/* color scheme */
+/* gruvbox https://user-images.githubusercontent.com/31720261/147415431-13f6c6af-2f76-46c9-8448-20c71e359fc5.png */
+:root {
+  /* gruvbox colors */
+  --black-darkest:      #242424;
+  --black-grey-dark:    #282828;
+  --black-grey:         #504945;
+  --black-grey-light:   #665C54;
+  --grey-light:         #DEDEDE;
+  --yellow-unsaturated: #EEBD35;
+  --yellow-saturated:   #FABD2F;
+  --orange:             #D65D0E;
+  --red-light:          #FB4934;
+  --red:                #CC241D;
+  --green:              #98971A;
+  --blue-green:         #689D6A;
+  --blue-green-light:   #8EC07C;
+  --purple:             #B16286;
+  --purple-light:       #D4879C;
+  --sky-blue:           #7FA2AC;
+  --sky-blue-grey:      #458588;
+  --blue-grey:          #83A598;
+  --cream:              #E7D7AD;
+
+  /* Active Theme */
+  --primary-text: var(--grey-light); 
+  --background:   var(--black-grey-dark);
+  --foreground:   var(--black-grey-light);
+  --separator:    var(--cream);
+  --highlight:    var(--yellow-unsaturated);
+  --link:         var(--purple-light);
+  --header:       var(--green);
+
+}
+
 body {
-    border-top: 1px dashed rgba(255,255,255,0.5);
-    background-color: #000000;
+    border-top: 1px dashed var(--separator);
+    background-color: var(--background);
     margin: 0 auto;
     padding: 0;
     font-family: monospace;
     font-size: 12px;
     line-height: unset !important;
-    color: rgba(255,255,255,0.6);
+    color: var(--primary-text);
     text-align: center;
-    //width: 800px;
+    width: 800px;
 }
-h1 {
-  color: rgba(220,220,0,0.8);
-  font-size: 24px;
-  font-family: monospace;
-  font-weight: bold;
-}
-h2 { color: rgba(220,220,0,0.7); }
-h3 { color: rgba(220,220,0,0.6); }
-h4 { color: rgba(220,220,0,0.5); }
-h5 { color: rgba(220,220,0,0.4); }
-h6 { color: rgba(220,220,0,0.3); }
+
 footer {
     color: rgba(220,220,0,0.8);
     font-weight: bold;
-    //width: 60%;
+    width: 60%;
     border-top: dashed 1px rgba(255,255,255,0.5);
     margin: 20px auto 15px;
     padding-top: 10px;
 }
+
 header {
     margin-top: 25px;
     margin-bottom: 10px;
-    color: rgba(220,220,0,0.9);
+    color: var(--header);
 }
+
 header p {
     text-align: left;
     margin: 0;
-    /* color: rgba(220,220,0,0.7); */
-    color: rgba(255,255,255,0.5);
 }
+
 a {
     text-decoration: none;
-    color: rgba(220,220,0,0.8);
+    color: var(--link);
 }
+
+/*
 .menu {
     border-top: 1px dashed rgba(255,255,255,0.5);
     border-bottom: 1px dashed rgba(255,255,255,0.5);
     margin-bottom: 10px;
 }
+
 .menu ul {
     margin-top: 12px;
     margin-bottom: 12px;
     padding-left: 0px;
 }
+
 .menu ul li {
     display: inline;
     margin-left: 5px;
 }
+
 .menu ul li a {
     text-decoration: none;
     color: rgba(220,220,0,0.8);
 }
+
 .menu ul li a:hover {
     padding: 2px;
     border-left: 1px dashed rgba(220,220,0,0.5);
     border-right: 1px dashed rgba(220,220,0,0.5);
 }
+*/
+
 main {
     text-align: left;
 }
-a:hover {
-		color: rgba(220,220,0,0.6);
-}
+
+/*
 pre {
     background-color: rgba(255,255,255,0.05);
     border: 1px dashed rgba(255,255,255,0.5);
@@ -85,6 +118,7 @@ pre {
 		font-size: 12px;
 		color: rgba(255,255,255,0.4);
 }
+
 img {
     width: 80%;
     margin-left: 10%;
@@ -94,6 +128,7 @@ img {
     -moz-border-radius: 3px;
     border-radius: 3px;
 }
+
 iframe {
     width: 750px;
     height: 400px;
@@ -104,6 +139,7 @@ iframe {
     -moz-border-radius: 3px;
     border-radius: 3px;
 }
+
 .feed-recomendation {
 	border-top: 1px dashed rgba(255,255,255,0.5);
 	border-bottom: 1px dashed rgba(255,255,255,0.5);
@@ -111,6 +147,8 @@ iframe {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+*/
+
 
 /* Table style */
 audio {
@@ -200,24 +238,8 @@ table a {
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
 /* End Syntax highlighting styles */
 
-.comment {
-    color: rgba(255,255,255,0.3);
-}
-.reserved {
-    color: rgba(220,220,0,0.4);
-}
-.string {
-    color: rgba(220,220,0,0.7);
-}
-.function {
-    color: rgba(255,255,255,0.5);
-}
-.number {
-    color: rgba(255,255,255,0.7);
-}
-
 blockquote {
   border-left: unset;
-margin: unset;
-    font-size: 12px;
+  margin: unset;
+  font-size: 12px;
 }
