@@ -11,12 +11,14 @@ motds: [
 footer_message: "close the world, open the next"
 domain: nickelulz.github.io
 baseurl: "/"
-url: "https://nickelulz.github.io"
+url: "https://nickelulz.xyz"
 
 # Personal Information
 username: "nickelulz"
 public_email: 'nickelulz <span class="normal">at</span> proton <span class="normal">dot</span> me'
 github: "nickelulz"
+
+# Blog Settings
 
 # Build settings
 markdown: kramdown
