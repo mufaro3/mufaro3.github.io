@@ -1,11 +1,11 @@
 ---
-layout: blog
+layout: default 
 title: "Category List"
 permalink: /category
 ---
 
 <header>
-  <h1>Category List</h1>
+  <h2>Category List</h2>
 </header>
 
 <ul class="tag-box inline">
@@ -23,7 +23,7 @@ permalink: /category
 
 {% assign taglist = site.tags | sort %}
 {% for category in taglist %} 
-  <h2 id="{{ category[0] }}">{{ category[0] }}</h2>
+  <h3 id="{{ category[0] }}">{{ category[0] }}</h3>
   <ul class="post-list">
   {% assign list = category[1] %}  
   {% for post in list %}

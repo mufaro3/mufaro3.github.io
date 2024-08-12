@@ -1,5 +1,13 @@
 # Site settings
 title: "nickelulz.xyz"
+motds: [ 
+  'big tech is literally hitler', 
+  'god bless templeOS',
+  'all hail Terry Davis',
+  '<span class="mono anti-highlight fs-normal">01001100 01000001 01011001 01000101 01010010 00100000 00110000 00110001</span>',
+  'erm... what the sigma?',
+  '<span class="mono red fs-normal">Segmentation fault. Website broken.</span>'
+]
 footer_message: "close the world, open the next"
 domain: nickelulz.github.io
 baseurl: "/"
@@ -7,7 +15,8 @@ url: "https://nickelulz.github.io"
 
 # Personal Information
 username: "nickelulz"
-public_email: "nickelulz@proton.me"
+public_email: 'nickelulz <span class="normal">at</span> proton <span class="normal">dot</span> me'
+github: "nickelulz"
 
 # Build settings
 markdown: kramdown

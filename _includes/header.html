@@ -1,8 +1,9 @@
 <header class="row">
   <div>
-    <h1>{{ site.title }}</h1>
+    <h1>[ <span class="green">{{ site.title }}</span> ]: "<span class="serif italic">{{ site.motds | sample }}</span>"</h1>
     <p>email: <span class="highlight mono">{{ site.public_email }}</span></p>
+    <p>github: <span class="highlight mono">{{ site.github }}</span></p>
   </div>
-</header>
 
-{% include menu.html %}
+  {% include menu.html %}
+</header>

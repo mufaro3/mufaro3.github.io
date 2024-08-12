@@ -1,6 +1,6 @@
 ---
 layout: blog 
-title: "Media Blog Posts"
+title: "/med/: Media: Literature, Film, Arts, and Sound"
 permalink: /media
 category: media
 ---

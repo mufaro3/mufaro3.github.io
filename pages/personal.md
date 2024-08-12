@@ -1,6 +1,6 @@
 ---
 layout: blog 
-title: "Personal Blog Posts"
+title: "/per/: Personal Blogging"
 permalink: /personal
-category: programming
+category: personal 
 ---

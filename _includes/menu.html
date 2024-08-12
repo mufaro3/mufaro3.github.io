@@ -1,8 +1,11 @@
 <div class="menu">
   <ul>
       <li><a href="{{ site.baseurl }}" title="Home">home</a></li>
-      <li><a href="{{ site.baseurl }}personal/" title="Personal Blogs">/per/</a></li>
-      <li><a href="{{ site.baseurl }}media" title="Media: Literature, Film, Arts, and Sound">/med/</a></li>
-      <li><a href="{{ site.baseurl }}programming" title="Programming and Technology">/prog/</a></li>
+      {% assign personal-page = site.pages | where: "name", "personal.md" | first %}
+      <li><a href="{{ site.baseurl }}personal/" title="{{ personal-page.title }}">/per/</a></li>
+      {% assign media-page = site.pages | where: "name", "media.md" | first %}
+      <li><a href="{{ site.baseurl }}media" title="{{ media-page.title }}">/med/</a></li>
+      {% assign programming-page = site.pages | where: "name", "programming.md" | first %}
+      <li><a href="{{ site.baseurl }}programming" title="{{ programming-page.title }}">/prog/</a></li>
   </ul>
 </div>
