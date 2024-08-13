@@ -37,12 +37,12 @@
   --header:         var(--sky-blue);
   --string:         var(--green);
   
-  --monospace-font: DejaVu Sans Mono, Roboto Mono, monospace;
+  --monospace-font: 'Source Code Pro', DejaVu Sans Mono, Roboto Mono, monospace;
   --serif-font: Lora, "Times New Roman", Times, serif;
   --sans-serif-font: Helvetica, Arial, sans-serif;
 
-  --font-size-standard: 14px;
-  --font-size-small: calc( var(--font-size-regular) - 4px );
+  --font-size-standard: 18px;
+  --font-size-small: calc( var(--font-size-standard) - 4px );
 }
 
 /* Major Components */
@@ -75,7 +75,26 @@ main {
 }
 
 main > header {
-  flex: 0 1 auto; 
+  flex: 0 1 auto;
+  padding-bottom: 1em;
+  border-bottom: 1px dashed var(--separator);
+}
+
+#contact-container {
+  display: flex;
+  justify-content: center;
+}
+
+#contact {
+  list-style-type: none;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+#contact > li {
+  float: left;
+  width: 50%;
 }
 
 header p {
@@ -89,7 +108,8 @@ main > footer {
   font-style: italic;
   width: 100%;
   border-top: solid 2px var(--separator);
-  margin: 20px auto 15px;
+  margin-top: 1em;
+  margin-bottom: 1em;
   padding-top: 10px;
   flex: 0 1 auto;
 }
@@ -99,8 +119,6 @@ main > .content {
 }
 
 .menu {
-  border-top: 1px dashed var(--separator);
-  border-bottom: 1px dashed var(--separator);
   display: inline;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -173,18 +191,18 @@ pre {
 img {
   width: 80%;
   margin-left: 10%;
-  border: 1px dashed rgba(255,255,255,0.5);
+  border: 1px dashed var(--separator);
   padding: 8px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
 
-/*
+
 iframe {
   width: 750px;
   height: 400px;
-  border: 1px dashed rgba(255,255,255,0.5);
+  border: 1px dashed var(--separator);
   padding: 8px;
 		margin-bottom: 10px;
   -webkit-border-radius: 3px;
@@ -193,16 +211,13 @@ iframe {
 }
 
 .feed-recomendation {
-	border-top: 1px dashed rgba(255,255,255,0.5);
-	border-bottom: 1px dashed rgba(255,255,255,0.5);
-	margin-top: 10px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	border-top: 1px dashed var(--separator);
+  padding-top: 1em;
 }
-*/
 
 .posts {
   font-family: var(--monospace-font);
+  font-size: var(--font-size-small);
 }
 
 blockquote {
@@ -223,7 +238,7 @@ table {
 }
 
 td {
-  border: 1px dashed rgba(255, 255, 255, 0.5);
+  border: 1px dashed var(--separator);
 }
 
 caption {

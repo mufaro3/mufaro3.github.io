@@ -1,9 +1,33 @@
-<header class="row">
-  <div>
-    <h1>[ <span class="green">{{ site.title }}</span> ]: "<span class="serif italic">{{ site.motds | sample }}</span>"</h1>
-    <p>email: <span class="highlight mono">{{ site.public_email }}</span></p>
-    <p>github: <span class="highlight mono">{{ site.github }}</span></p>
+<header>
+  <div class="menu">
+    <ul>
+      <li><a href="{{ site.baseurl }}" title="Home">home</a></li>
+      {% assign personal-page = site.pages | where: "name", "personal.md" | first %}
+      <li><a href="{{ site.baseurl }}per/" title="{{ personal-page.title }}">/per/</a></li>
+      {% assign media-page = site.pages | where: "name", "media.md" | first %}
+      <li><a href="{{ site.baseurl }}med" title="{{ media-page.title }}">/med/</a></li>
+      {% assign programming-page = site.pages | where: "name", "programming.md" | first %}
+      <li><a href="{{ site.baseurl }}prog" title="{{ programming-page.title }}">/prog/</a></li>
+      {% assign gaming-page = site.pages | where: "name", "gaming.md" | first %}
+      <li><a href="{{ site.baseurl }}g" title="{{ gaming-page.title }}">/g/</a></li>
+
+      {% assign guest-book-page = site.pages | where: "name", "guestbook.md" | first %}
+      <li><a href="{{ site.baseurl }}gb" title="{{ guest-book-page.title }}">/gb/</a></li>
+      {% assign vitae-page = site.pages | where: "name", "vitae.md" | first %}
+      <li><a href="{{ site.baseurl }}cv" title="{{ vitae-page.title }}">/cv/</a></li>
+    </ul>
   </div>
 
-  {% include menu.html %}
+  <div>
+    <h1>[ <span class="green">{{ site.title | debug }}</span> ]: "<span class="serif italic">{{ site.motds | sample }}</span>"</h1>
+    <div id="contact-container">
+      <ul id="contact">
+        <li>email: <span class="highlight mono">{{ site.public_email }}</span></li>
+        <li>github: <span class="highlight mono">{{ site.github }}</span></li>
+        <li>instagram: <span class="highlight mono">{{ site.instagram }}</span></li>
+        <li>discord: <span class="highlight mono">{{ site.discord }}</span></li>
+        <li>steam: <span class="highlight mono">{{ site.steam }}</span></li>
+      </ul>
+    </div>
+  </div>
 </header>
