@@ -4,6 +4,8 @@
 - rewrite syntax highlighting system
 - implement video embedding
 - implement media queries for mobile support
+- fix routing to home for boards
+- fix guestbook loading via iframe due to http/https mismatch
 
 further work
 - develop new email address
