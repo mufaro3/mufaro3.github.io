@@ -6,6 +6,7 @@
 - implement media queries for mobile support
 - fix routing to home for boards
 - fix guestbook loading via iframe due to http/https mismatch
+- update 404.html to match style of rest of website
 
 further work
 - develop new email address
