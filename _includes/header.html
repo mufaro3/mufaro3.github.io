@@ -3,7 +3,7 @@
     <ul>
       <li><a href="{{ site.baseurl }}" title="Home">home</a></li>
       {% assign personal-page = site.pages | where: "name", "personal.md" | first %}
-      <li><a href="{{ site.baseurl }}per/" title="{{ personal-page.title }}">/per/</a></li>
+      <li><a href="{{ site.baseurl }}per" title="{{ personal-page.title }}">/per/</a></li>
       {% assign media-page = site.pages | where: "name", "media.md" | first %}
       <li><a href="{{ site.baseurl }}med" title="{{ media-page.title }}">/med/</a></li>
       {% assign programming-page = site.pages | where: "name", "programming.md" | first %}
@@ -19,7 +19,8 @@
   </div>
 
   <div>
-    <h1>[ <span class="green">{{ site.title | debug }}</span> ]: "<span class="serif italic">{{ site.motds | sample }}</span>"</h1>
+  <!-- {{ site.footer_quotes | sample }} -->
+    <h1>[ <span class="green">{{ site.title | flip_animate }}</span> ]: "<span class="serif italic">{{ site.motds | sample }}</span>"</h1>
     <div id="contact-container">
       <ul id="contact">
         <li>email: <span class="highlight mono">{{ site.public_email }}</span></li>

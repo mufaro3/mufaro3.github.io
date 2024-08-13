@@ -41,11 +41,15 @@
   --serif-font: Lora, "Times New Roman", Times, serif;
   --sans-serif-font: Helvetica, Arial, sans-serif;
 
-  --font-size-standard: 18px;
-  --font-size-small: calc( var(--font-size-standard) - 4px );
+  --font-size-standard: 16px;
+  --font-size-small: calc( var(--font-size-standard) - 2px );
 }
 
 /* Major Components */
+
+code {
+  font-family: var(--monospace-font);
+}
 
 html, body { 
   height: 100%; 
@@ -64,7 +68,6 @@ main {
   justify-content: center;
   flex-flow: column;
   background: var(--foreground);
-  text-align: left;
   width: 40%;
   line-height: unset !important;
   padding-right: 5em;
@@ -72,6 +75,7 @@ main {
   padding-top: 3em;
   margin: 1em auto;
   border: 2px solid var(--grey-light);
+  text-align: left;
 }
 
 main > header {
@@ -116,6 +120,7 @@ main > footer {
 
 main > .content {
   flex: 1 2 auto;
+  text-align: justify;
 }
 
 .menu {
@@ -137,6 +142,26 @@ main > .content {
 
 .menu > ul > li > a {
   text-decoration: none;
+}
+
+/* Animations */
+
+.letter-flip-animation {
+  position: relative;
+}
+.letter-flip-animation span {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
 }
 
 /* Micro Rules */
@@ -201,7 +226,7 @@ img {
 
 iframe {
   width: 750px;
-  height: 400px;
+  height: 500px;
   border: 1px dashed var(--separator);
   padding: 8px;
 		margin-bottom: 10px;

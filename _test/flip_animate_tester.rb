@@ -1,4 +1,5 @@
 require 'liquid'
 require_relative '../_plugins/animator.rb'
 
-puts flip_animate('abcd')
+puts FlipAnimationFilter.redify('abcd')
+puts FlipAnimationFilter.flip_animate('abcd')

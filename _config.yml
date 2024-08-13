@@ -1,5 +1,10 @@
 # Site settings
 title: "nickelulz.xyz"
+domain: nickelulz.github.io
+baseurl: "/"
+url: "https://nickelulz.xyz"
+
+# messages of the day
 motds: [ 
   'big tech is literally hitler', 
   'god bless templeOS',
@@ -7,10 +12,13 @@ motds: [
   '<span class="mono anti-highlight fs-normal">01001100 01000001 01011001 01000101 01010010 00100000 00110000 00110001</span>',
   'WAR IS PEACE!'
 ]
-footer_message: "close the world, open the next"
-domain: nickelulz.github.io
-baseurl: "/"
-url: "https://nickelulz.xyz"
+
+footer_quotes: [
+  "no matter how real the wired is, the real world will always be more real",
+  "let's all love lain!",
+  "close the world, open the next",
+  "you are now, officially, a member of the knights of the lambda calculus!"
+]
 
 # Personal Information
 username: "nickelulz"
@@ -25,5 +33,4 @@ discord: "nickelulz"
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title/
-gems:
-  - jekyll-debug
+safe: false
