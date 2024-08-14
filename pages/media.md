@@ -1,6 +1,6 @@
 ---
 layout: blog 
-title: "/med/: Media: Literature, Film, Arts, and Sound"
+title: "/med/: Media: Literature, Film, Arts, and Music"
 permalink: /med
 category: media
 description: "\"Why yes, I am the worst kind of person to watch a movie with! How did you know?\"" 

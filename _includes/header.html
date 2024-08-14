@@ -1,20 +1,20 @@
 <header>
   <div class="menu">
     <ul>
-      <li><a href="{{ site.baseurl }}" title="Home">home</a></li>
+      <li><a href="{{ site.url }}" title="Home">[home]</a></li>
       {% assign personal-page = site.pages | where: "name", "personal.md" | first %}
-      <li><a href="{{ site.baseurl }}per" title="{{ personal-page.title }}">/per/</a></li>
+      <li><a href="{{ site.url }}/per" title="{{ personal-page.title }}">/per/</a></li>
       {% assign media-page = site.pages | where: "name", "media.md" | first %}
-      <li><a href="{{ site.baseurl }}med" title="{{ media-page.title }}">/med/</a></li>
+      <li><a href="{{ site.url }}/med" title="{{ media-page.title }}">/med/</a></li>
       {% assign programming-page = site.pages | where: "name", "programming.md" | first %}
-      <li><a href="{{ site.baseurl }}prog" title="{{ programming-page.title }}">/prog/</a></li>
+      <li><a href="{{ site.url }}/λ" title="{{ programming-page.title }}">/λ/</a></li>
       {% assign gaming-page = site.pages | where: "name", "gaming.md" | first %}
-      <li><a href="{{ site.baseurl }}g" title="{{ gaming-page.title }}">/g/</a></li>
+      <li><a href="{{ site.url }}/vg" title="{{ gaming-page.title }}">/vg/</a></li>
 
       {% assign guest-book-page = site.pages | where: "name", "guestbook.md" | first %}
-      <li><a href="{{ site.baseurl }}gb" title="{{ guest-book-page.title }}">/gb/</a></li>
+      <li><a href="{{ site.url }}/gb" title="{{ guest-book-page.title }}">/gb/</a></li>
       {% assign vitae-page = site.pages | where: "name", "vitae.md" | first %}
-      <li><a href="{{ site.baseurl }}cv" title="{{ vitae-page.title }}">/cv/</a></li>
+      <li><a href="{{ site.url }}/cv" title="{{ vitae-page.title }}">/cv/</a></li>
     </ul>
   </div>
 

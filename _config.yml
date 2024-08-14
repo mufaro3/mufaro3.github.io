@@ -32,5 +32,5 @@ discord: "nickelulz"
 
 # Build settings
 markdown: kramdown
-permalink: /:categories/:title/
+permalink: /posts/:title/
 safe: false

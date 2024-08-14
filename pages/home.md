@@ -11,7 +11,7 @@ I'm studying to become a researcher in Computer Science! Check out <a href="{{ s
 
 If you like what you see here, feel free to leave a message on my guestbook on <a href="{{ site.baseurl }}gb">/gb/</a>. If there's something a bit more private or serious you would like to contact me about, leave an email!
 
-![Maka ripping a bong.]({{ site.baseurl }}images/maka_ripping_a_bong.jpg)
+![Maka ripping a bong.]({{ 'images/maka_ripping_a_bong.jpg' | relative_url }})
 > *Yes. This is my greeter. It's just Maka ripping a bong. Credit to <span class="highlight">@pantsu_ripper</span> on Instagram.*
 
 And lastly, if you know me in real life and we went to high school together, turn around immediately and forget this page exists. <span class="highlight italic">I did not exist before graduation.</span> 
