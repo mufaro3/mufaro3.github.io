@@ -49,6 +49,7 @@
 
 code {
   font-family: var(--monospace-font);
+  font-style: normal;
 }
 
 html, body { 
