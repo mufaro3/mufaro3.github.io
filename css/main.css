@@ -71,9 +71,9 @@ main {
   background: var(--foreground);
   width: 40%;
   line-height: unset !important;
-  padding-right: 5em;
-  padding-left: 5em;
-  padding-top: 3em;
+  padding-right: 2vw;
+  padding-left: 2vw;
+  padding-top: 3vh;
   margin: 1em auto;
   border: 2px solid var(--grey-light);
   text-align: left;
@@ -115,7 +115,7 @@ main > footer {
   border-top: solid 2px var(--separator);
   margin-top: 1em;
   margin-bottom: 1em;
-  padding-top: 10px;
+  padding-top: 2vh;
   flex: 0 1 auto;
 }
 
@@ -143,6 +143,46 @@ main > .content {
 
 .menu > ul > li > a {
   text-decoration: none;
+}
+
+/* Mobile Support */
+
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1500px)
+{
+  main {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-device-width: 1000px)
+{
+  body {
+    background: var(--foreground);
+  }
+
+  main {
+    padding-top: 1vw;
+    width: 94%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin: 0;
+    border: none;
+  }
+
+  h1 { font-size: 1.5em; }
+  h2 { font-size: 1.4em; }
+  h3 { font-size: 1.3em; }
+  h4 { font-size: 1.2em; }
+
+  .menu { font-size: var(--font-size-small); }
+}
+
+@media only screen and (max-device-width: 250px)
+{
+  #contact > li {
+    width: 100%;
+    font-size: var(--font-size-small);
+  }
 }
 
 /* Animations */
