@@ -29,6 +29,7 @@
   --primary-text:   var(--grey-light); 
   --background:     var(--cream);
   --foreground:     var(--black-grey-dark);
+  --code-block-background: var(--black-grey);
   --separator:      var(--black-grey-light);
   --highlight:      var(--yellow-unsaturated);
   --anti-highlight: var(--black-grey-light);
@@ -50,6 +51,7 @@
 code {
   font-family: var(--monospace-font);
   font-style: normal;
+  font-size: var(--font-size-small);
 }
 
 html, body { 
@@ -239,20 +241,15 @@ a:hover {
 .green { color: var(--green); }
 .red { color: var(--red); }
 
-/*
 pre {
-  background-color: rgba(255,255,255,0.05);
-  border: 1px dashed rgba(255,255,255,0.5);
+  background-color: var(--code-block-background);
+  border: 1px dashed var(--separator);
   padding: 8px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
   overflow:auto;
-  font-family: monospace;
-	font-size: 12px;
-	color: rgba(255,255,255,0.4);
 }
-*/
 
 img {
   width: 80%;

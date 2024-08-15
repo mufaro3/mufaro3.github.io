@@ -1,0 +1,20 @@
+{
+  "courses": [
+    {
+      "course-id": "chem-1405",
+      "course-name": "CHEM 1405: Introductory Chemistry",
+      "subject": "chemistry",
+      "year": 2024,
+      "term": "summer"
+    }
+  ],
+
+  "papers": [
+    {
+      "relative_url": "notes/chem-1405/Notes/main.pdf",
+      "view_link": "chem-1405",
+      "type": "notes",
+      "course-id": "chem-1405"
+    }
+  ]
+}

@@ -4,9 +4,9 @@ title: "/cv/: Curriculum Vitae"
 permalink: /cv
 ---
 
-Download: [PDF]({{ site.baseurl }}res/cv.pdf)
+Download: [PDF]({{ site.url }}/papers/cv.pdf)
 
-<embed src="{{ site.baseurl }}res/cv.pdf" 
+<embed src="{{ site.url }}/papers/cv.pdf" 
     type="application/pdf"
     height="500px"
     width="100%">
