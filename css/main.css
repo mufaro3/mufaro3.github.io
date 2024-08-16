@@ -26,17 +26,17 @@
   --cream:              #E7D7AD;
 
   /* Active Theme */
-  --primary-text:   var(--grey-light); 
-  --background:     var(--cream);
-  --foreground:     var(--black-grey-dark);
-  --code-block-background: var(--black-grey);
-  --separator:      var(--black-grey-light);
-  --highlight:      var(--yellow-unsaturated);
-  --anti-highlight: var(--black-grey-light);
-  --link:           var(--purple-light);
-  --link-hover:     var(--purple);
-  --header:         var(--sky-blue);
-  --string:         var(--green);
+  --primary-text:           var(--grey-light); 
+  --background:             var(--cream);
+  --foreground:             var(--black-grey-dark);
+  --code-block-background:  var(--black-grey);
+  --separator:              var(--black-grey-light);
+  --emph:                   var(--yellow-unsaturated);
+  --unemph:                 var(--black-grey-light);
+  --link:                   var(--purple-light);
+  --link-hover:             var(--purple);
+  --header:                 var(--sky-blue);
+  --string:                 var(--green);
   
   --monospace-font: 'Source Code Pro', DejaVu Sans Mono, Roboto Mono, monospace;
   --serif-font: Lora, "Times New Roman", Times, serif;
@@ -230,8 +230,8 @@ a:hover {
   font-family: var(--sans-serif-font);
 }
 
-.highlight { color: var(--highlight); }
-.anti-highlight { color: var(--anti-highlight); }
+.emph { color: var(--emph); }
+.unemph { color: var(--unemph); }
 .mono { font-family: var(--monospace-font); }
 .string { color: var(--string); }
 .small { font-size: var(--font-size-small); }

@@ -6,19 +6,36 @@ url: "https://nickelulz.xyz"
 
 # messages of the day
 motds: [ 
-  'big tech is literally hitler', 
-  'god bless templeOS',
-  'all hail Terry Davis',
+  # >le hacker 4chan
+  # '<code>rm -rf /</code>', 
+  'delete System32',
+  
+  # sucking terry davis' penis
+  # 'god bless templeOS',
+  # 'all hail Terry Davis',
+  
+  # 1984
   'WAR IS PEACE!',
   'IGNORANCE IS STRENGTH!',
   'FREEDOM IS SLAVERY!'
 ]
 
 footer_quotes: [
+  # lain quotes
   "no matter how real the wired is, the real world will always be more real",
   "let's all love lain!",
   "close the world, open the next",
-  "<code>(format t \"</code>Welcome to the Knights of the λ-Calculus!<code>\")</code>"
+  
+  # >le hacker 4chan
+  "<code>(format t \"</code>Welcome to the Knights of the λ-Calculus!<code>\")</code>",
+  "smoke crack and install gentoo :)",
+
+  # radiohead references
+  "\"that's it, sir? you're leaving?\"",
+  "fifteen steps .. and then a sheer drop",
+
+  # the smiths
+  "Please excuse me from gym. I have a terrible cold coming on."
 ]
 
 # Personal Information
