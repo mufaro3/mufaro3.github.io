@@ -6,6 +6,7 @@ categories:
     - media 
 tags:
     - music
+    - in-progress
 ---
 
 As both an important addendum to [my previous article]( {{ site.url }}/posts/music-domain-expansion/ ) and as a great preparation for the unless stream of <span class="emph">"what's your major/mother's maiden name/social insurance number/music taste"</span>-esque questions that I'll unfortunately have to answer non-stop less than two weeks from now, I thought it would be nothing but productive to get the jump on creating a comprehensive list of what actually defines my personal music taste.

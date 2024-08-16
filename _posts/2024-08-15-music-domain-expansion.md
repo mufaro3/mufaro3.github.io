@@ -6,6 +6,7 @@ categories:
     - media 
 tags:
     - music
+    - in-progress
 ---
 
 I am quite proud of how awful my music taste is. In the first place, I don't particularly have a complete sense of what kind of music I *actually* like, and all of my playlists are quite a bit closer to being ragtag collections of various songs that I've simply crossed paths with over time rather than being well-refined sets of tunes designed to fit a specific mood or purpose at any given point in time. I've once joked that my music taste will have a song like <span class="emph">"Paranoid Android" by Radiohead</span> (which, *FYI*, is my favorite song of all time) followed shortly after by something like <span class="emph">Die Very Rough by Mario Judah</span> <span class="unemph small">(gay parody)</span>.

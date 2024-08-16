@@ -1,3 +1,7 @@
+---
+---
+/* The above lines are necessary for liquid integration */
+
 /* Lora Font import */
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
@@ -25,9 +29,12 @@
   --blue-grey:          #83A598;
   --cream:              #E7D7AD;
 
+  /* Background Image */
+  --newspaper-background: url({{ 'images/newspaper_background.jpg' | absolute_url }});
+
   /* Active Theme */
   --primary-text:           var(--grey-light); 
-  --background:             var(--cream);
+  --background:             var(--cream); 
   --foreground:             var(--black-grey-dark);
   --code-block-background:  var(--black-grey);
   --separator:              var(--black-grey-light);
@@ -38,6 +45,8 @@
   --header:                 var(--sky-blue);
   --string:                 var(--green);
   
+  --background-img:         var(--newspaper-background);
+
   --monospace-font: 'Source Code Pro', DejaVu Sans Mono, Roboto Mono, monospace;
   --serif-font: Lora, "Times New Roman", Times, serif;
   --sans-serif-font: Helvetica, Arial, sans-serif;
@@ -61,6 +70,7 @@ html, body {
 
 body {
   background-color: var(--background);
+  background-image: var(--background-img);
   font-family: var(--sans-serif-font);
   font-size: var(--font-size-standard); 
   color: var(--primary-text);
@@ -70,8 +80,7 @@ main {
   display: flex;
   justify-content: center;
   flex-flow: column;
-  background: var(--foreground);
-  width: 40%;
+  background: var(--foreground); 
   line-height: unset !important;
   padding-right: 2vw;
   padding-left: 2vw;
@@ -149,14 +158,21 @@ main > .content {
 
 /* Mobile Support */
 
-@media only screen and (min-device-width: 1000px) and (max-device-width: 1500px)
+@media only screen and (min-width: 1500px)
+{
+  main {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1500px)
 {
   main {
     width: 60%;
   }
 }
 
-@media only screen and (max-device-width: 1000px)
+@media only screen and (max-width: 1000px)
 {
   body {
     background: var(--foreground);
@@ -179,7 +195,7 @@ main > .content {
   .menu { font-size: var(--font-size-small); }
 }
 
-@media only screen and (max-device-width: 250px)
+@media only screen and (max-width: 250px)
 {
   #contact > li {
     width: 100%;

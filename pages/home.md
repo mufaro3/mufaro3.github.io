@@ -15,7 +15,6 @@ In my free time, I love all kinds of videogames, music, literature, and film, an
 
 If you like what you see here, feel free to leave a message on my guestbook on [/gb/]({{ site.url }}/gb). If there's something a bit more private or serious you would like to contact me about, leave an [email](mailto:nickelulz@proton.me)!
 
-![Maka ripping a bong.]({{ 'images/maka_ripping_a_bong.jpg' | relative_url }})
-> *Yes. This is my greeter. It's just Maka ripping a bong. Credit to <span class="emph">@pantsu_ripper</span> on Instagram.*
+![The Album Cover of Life by the Cardigans]({{ 'images/life.jpg' | relative_url }})
 
 This website is pretty heavily inspired by a number of other people's work, as I'm not very original and simply prefer to steal ideas/content from other people. I took the menu system and overall vibe from [lainchan.org](https://lainchan.org) and mixed it with the functional style closer to [tom7.org](http://tom7.org).
