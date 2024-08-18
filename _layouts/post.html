@@ -11,7 +11,7 @@ layout: page
         {% if page.author %} • {{ page.author }}{% endif %}
         {% if page.meta %} • {{ page.meta }}{% endif %}
         •
-        {% for category in page.tags %}<span><a href="{{ site.url }}/category/#{{ category }}">{{ category }}</a>{% if forloop.last != true %}, {% endif %}</span>{% endfor %}
+        {% for category in page.tags %}<span><a href="{{ site.url }}/category#{{ category }}">{{ category }}</a>{% if forloop.last != true %}, {% endif %}</span>{% endfor %}
     </p>
   </header>
 

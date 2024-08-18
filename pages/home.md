@@ -7,7 +7,7 @@ Welcome to <span class="emph mono small">{{ site.title }}</span>. My name is Muf
 
 I'm currently an undergrad at <span class="emph">The University of British Columbia</span> in <span class="emph">Vancouver, BC, Canada</span>, and I have a variety of interests, so I decided to set up this web page to chronicle all of them.
 
-I'm studying to become a researcher in Computer Science! Check out <a href="{{ site.url }}/cv">/cv/</a> to check my progress on getting there! I love low-level and functional programming, but I'm not too afraid of higher level work (this site being evidence of that). 
+I'm studying to become a researcher in Computer Science! Check out [/cv/]({{ site.url }}/cv) to check my progress on getting there! I love low-level and functional programming, but I'm not too afraid of higher level work (this site being evidence of that). Alongside my CV, any documents that I share on this site for any reason, especially any scientific papers I may publish, will be made available on [/papers/]({{ site.url }}/papers). 
 
 I would *probably* kill a man for a research grant, and I want a <span class="emph">PhD in Computer Science</span> more than unlimited cigarettes and beer (which I would **certainly** love), so I'm always open to discuss scientific computing/technology/academia in general over on [/λ/]({{ site.url }}/λ).
 

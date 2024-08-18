@@ -10,4 +10,4 @@ tags:
 
 This is a personal post!
 
-{{ site.title | flip_animate }}
+{{ site.title | sigma }}

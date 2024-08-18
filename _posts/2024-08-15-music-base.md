@@ -39,6 +39,8 @@ My favorite Radiohead albums/songs are:
     - Pulk/Pull (True Love Waits Version)
     - Knives Out
     - Packt Like Sardines in a Crushd Tin Box
+    - Dollars and Cents
+    - I Might Be Wrong
 - The Bends
     - The Bends
     - Just
@@ -64,8 +66,7 @@ I'll be honest, I feel incredibly conflicted about The Smiths. I think the easie
 ### Others
 
 - Mezzanine by Massive Attack
-    - Risingson 
-- Aphex Twin
+    - Risingson
 - Mac DeMarco
 - Linkin Park
 - Slowdive
@@ -168,12 +169,33 @@ The and/or is necessary, as there is a large amount of overlap between Auditory 
 
 I'd say that this genre varies all the way from chilled out beats from guys like Nujabes all the way to raging breakcore from people like Sewerslvt, and quite honestly, I'm down for all of it.
 
-- Brian Ellis
+### Aphex Twin
+
+Full disclosure, I'm not really all that much of a fan of Aphex Twin. I like his music, but I've never really been able to get into him as much as I probably should, even though I've listened to the entirety of "...I Care Because You Do"
+
+- ...I Care Because You Do
+    - Alberto Balsalm
+    - Acrid Avid Jam Shred
+    - Wax The Nip 
+    - Mookid
+
+In all honesty, I think he's pretty good, but there are so many other artists in his genre that I find it hard to find his music particularly special in comparison.
+
+### Brian Ellis
+
+You should start noticing a bit of a trend by now, as with almost all of these creators, I'll only have listened to one or so of their albums, but for that one album, I'll have listened to it the entire way through and been entirely enchanted by it. Brian Ellis is absolutely no different. I only listened to the World Pieces (Volume 2), but his composing was incredible.
+
+- World Pieces Volume 2
+    -Terminated
+    - World Peace
+
+### Others
+
 - Fearofdark
 - Windows96
 - glue70
 - Michael Wyckoff
-- Nujabes
+- Nujabes (and ShingO2)
 - Bladee
 - Ecco2K
 - ThaiBoy Digital
@@ -181,6 +203,8 @@ I'd say that this genre varies all the way from chilled out beats from guys like
 - The Serial Experiments Lain Cyberia Mix
     - Duvet Cyberia Remix by bôa
     - INFANiTy World by J.J
+
+
 
 ## The "Look at me! I'm so sophisticated for liking this!"
 
@@ -242,6 +266,7 @@ I *could* list some classical composers (cool ones that come immediately to mind
     - Cosmic Girl
     - Virtual Insanity
 - My Spies by The Republic
+- Aurora Avenue
 
 ### Individual Albums/Songs
 
