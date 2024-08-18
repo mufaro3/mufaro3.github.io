@@ -50,5 +50,7 @@ discord: "nickelulz"
 
 # Build settings
 markdown: kramdown
+kramdown:
+  math_engine: mathjax
 permalink: /posts/:title/
 safe: false

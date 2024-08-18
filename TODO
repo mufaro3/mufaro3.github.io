@@ -5,11 +5,11 @@
 - [ x ] fix routing problem for posts after publishing to github (via site.baseurl vs site.url)
 - [ x ] rewrite syntax highlighting system
 - implement video embedding
-- implement media queries for mobile support
+- [ x ] implement media queries for mobile support
 - [ x ] fix routing to home for boards
 - fix guestbook loading via iframe due to http/https mismatch
 - [ x ] update 404.html to match style of rest of website
-- fix css naming conflicts between syntax theme and base site theme
+- [ x ] fix css naming conflicts between syntax theme and base site theme
 
 further work
 - develop new email address

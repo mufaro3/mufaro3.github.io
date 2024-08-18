@@ -8,6 +8,12 @@ tags:
     - examples 
 ---
 
+$$2+2$$
+
+\begin{equation}
+\int_0^\pi \sin (x) dx = 2
+\end{equation}
+
 {% highlight common_lisp %}
 (defun filter(list predicate)
     (if (null list) '()

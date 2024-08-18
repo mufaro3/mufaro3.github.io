@@ -1,7 +1,7 @@
 ---
 layout: post
 title:	"my music taste, listed and categorized"
-date:   2024-08-15 7:03:00	
+date:   2024-08-15 
 categories:
     - media 
 tags:

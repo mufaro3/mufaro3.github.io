@@ -3,6 +3,12 @@ layout: content
 permalink: /
 ---
 
+<center>
+<div class="tenor-gif-embed" data-postid="25366767" data-share-method="host" data-aspect-ratio="2.11921" data-width="80%"><a href="https://tenor.com/view/mcdonalds-gif-25366767">Mcdonalds GIF</a>from <a href="https://tenor.com/search/mcdonalds-gifs">Mcdonalds GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+</center>
+
+<br>
+
 Welcome to <span class="emph mono small">{{ site.title }}</span>. My name is Mufaro, but I go online by a variety of handles: <span class="unemph mono small">{ <span class="string small">"nickelulz"</span>, <span class="string small">"nickelulzywulzy"</span>, <span class="string small">"wulzy"</span>, <span class="string small">"μ"</span>, <span class="string small">"mμfaro"</span>, <span class="string small">"moofy"</span>, <span class="string small">"nickelelelelelel"</span>, <span class="string small">"nickel"</span>, <span class="normal">and <span class="italic">sometimes</span></span>, <span class="string small">"Anna Karenina"</span> }.</span>
 
 I'm currently an undergrad at <span class="emph">The University of British Columbia</span> in <span class="emph">Vancouver, BC, Canada</span>, and I have a variety of interests, so I decided to set up this web page to chronicle all of them.
