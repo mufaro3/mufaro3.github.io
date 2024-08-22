@@ -128,6 +128,7 @@ I genuinely don't think any other band will actually be able to come close to th
 ### Others
 
 - Floatie
+- The Gorillaz
 - F Song by Strawberry Guy
 - Insomniac by Memo Boy
 - Tek It by Cafune

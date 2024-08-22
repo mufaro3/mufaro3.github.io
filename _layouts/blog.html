@@ -23,7 +23,7 @@ layout: page
         {% assign tag = post.tags | sort %}
         {% for category in tag %}
         <span>
-          <a href="{{ site.baseurl }}category/#{{ category }}">{{ category }}</a>
+          <a href="{{ site.baseurl }}category#{{ category }}">{{ category }}</a>
           {% if forloop.last != true %},{% endif %}
         </span>
         {% endfor %}

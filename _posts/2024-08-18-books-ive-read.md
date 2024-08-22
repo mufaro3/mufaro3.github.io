@@ -36,6 +36,8 @@ The following is a list of various books I've read across differernt genres, wit
 - Animal Farm by George Orwell
 - The Adventures of Huckleberry Finn by Mark Twain
 - Tender is the Flesh by Augustina Bazterrica
+- The Great Gatsby by F. Scott Fitzgerald
+- Fahrenheit 451 by Ray Bradbury
 
 ## Books that I've started previously but still have yet to finish
 
@@ -55,7 +57,7 @@ The following is a list of various books I've read across differernt genres, wit
 - The Holy Bible, New International Edition
     - Particularly the books of Levitacus, Job, Genesis, and Matthew.
 - Beowulf
-- The Picture of Dorian Grey by Oscar Wilde
+- The Picture of Dorian Gray by Oscar Wilde
 - Julius Caesar by William Shakespeare
 - The Federalist Papers by Alexander Hamilton, James Madison, and John Jay
 - The Odyssey by Homer
@@ -66,8 +68,22 @@ The following is a list of various books I've read across differernt genres, wit
 
 - Catch-22 by Joseph Heller
 - Anna Karenina by Leo Tolstoy
-- Crime and Punishment by Fyodor Dostoevsky
+- Crime and Punishment and The Brothers Karamazov by Fyodor Dostoevsky
 - The Call of Cthulu and Other Weird Stories by H.P. Lovecraft
 - Don Quixote by Miguel de Cervantes
 - Paradise Lost by John Milton
 - The Divine Comedy by Dante Alighieri
+- Slaughterhouse-Five by Kurt Vonnegut
+- The Handmaid's Tale by Margaret Atwood
+- To Kill a Mockingbird by Harper Lee
+- Macbeth, King Lear, Othello, and Henry VIII by William Shakespeare
+- Of Mice and Men and The Grapes of Wrath by John Steinbeck
+- Frankenstein by Mary Shelley
+- Doctor Faustus by Christopher Marlowe
+- The Metamorphosis by Franz Kafka
+- Moby Dick by Herman Melville
+- The Fountainhead by Ayn Rand
+- The Count of Monte Cristo by Alexander Dumas
+- The Decameron by Giovanni Boccaccio
+- The Iliad by Homer
+- The Aeneid by Virgil 
