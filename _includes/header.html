@@ -18,8 +18,7 @@
       ] &nbsp;
 
       [ &nbsp;
-      {% assign guest-book-page = site.pages | where: "name", "guestbook.md" | first %}
-      <li><a href="{{ site.url }}/gb" title="{{ guest-book-page.title }}">/gb/</a></li>
+      <li><a href="{{ site.guestbook_url }}" title="Guest Book (External)">/gb/</a></li>
       {% assign vitae-page = site.pages | where: "name", "vitae.md" | first %}
       <li><a href="{{ site.url }}/cv" title="{{ vitae-page.title }}">/cv/</a></li>
       {% assign papers-page = site.pages | where: "name", "papers.md" | first %}
@@ -40,4 +39,7 @@
       </ul>
     </div>
   </div>
+
+  <br>
+  <div>Current Read: <span class="mono emph">"{{ site.current_read_name }}"</span> by <span class="mono emph">{{ site.current_read_author }}</span> </div>
 </header>

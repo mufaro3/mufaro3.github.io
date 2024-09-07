@@ -3,12 +3,13 @@ title: "nickelulz.xyz"
 domain: nickelulz.github.io
 baseurl: "/"
 url: "https://nickelulz.xyz"
+guestbook_url: "http://users.smartgb.com/g/g.php?a=s&i=g19-01585-99" 
 
 # messages of the day
 motds: [ 
   # >le hacker 4chan
   # '<code>rm -rf /</code>', 
-  'delete System32',
+  # 'delete System32',
   
   # sucking terry davis' penis
   # 'god bless templeOS',
@@ -37,6 +38,10 @@ footer_quotes: [
   # the smiths
   "Please excuse me from gym. I have a terrible cold coming on."
 ]
+
+# Current Read
+current_read_name: "Julius Caesar"
+current_read_author: "William Shakespeare"
 
 # Personal Information
 username: "nickelulz"

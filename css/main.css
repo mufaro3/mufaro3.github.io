@@ -52,6 +52,7 @@
   --sans-serif-font: Helvetica, Arial, sans-serif;
 
   --font-size-standard: 16px;
+  --font-size-large: calc( var(--font-size-standard) + 4px );
   --font-size-small: calc( var(--font-size-standard) - 2px );
 }
 
@@ -254,6 +255,7 @@ a:hover {
 .serif { font-family: var(--serif-font); }
 .italic { font-style: italic; }
 .fs-normal { font-style: normal; }
+.largefont { font-size: var(--font-size-large); }
 .green { color: var(--green); }
 .red { color: var(--red); }
 
