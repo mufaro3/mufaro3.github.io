@@ -159,10 +159,158 @@ The reason why this function layout sucks so badly is that unlike the intended i
 
 This function chooses to first manually remove all non-numeric characters from the string (which is already one \\(O(n)\\) loop right there), before obtaining the first and last characters of the new integer-only string as a list trhoguh indexing, and this method sucks because edge cases where there is only one number in the string have to have additional code written to manually copy the value to both our `first-number` and `second-number` variables.
 
-### Part 3: Success
-
-### Part 4: What I Learned About Lisp In The Process
-
-{% include unfinished.md %}
-
 View the final source code [here](https://gist.github.com/nickelulz/af897ea7624dc5dbf502885b30280d3d).
+
+### Part 3: Success (kind of), and What I Learned About Lisp In The Process 
+
+It's been a few weeks since I first started writing this post, and I'll level with you: there really hasn't been much success. At least, strictly speaking, there hasn't been much success in solving this specific Advent of Code problem thus far, but in all honesty, I'm beginning to love Common Lisp, and I have a few reasons why.
+
+First and foremost, I'm starting to love the switch in human-computer interaction between imperative programming and functional/declarative programming. Fundamentally, the main difference between imperative programming and functional programming is the switch between essentially describing the exact processes the computer must undergo to solve a problem (which opens up issues of side effects due to the programmer having to constantly consider changes in states of varying scopes) and alternatively, describing the problem itself and then letting the computer do the rest automatically. When computer programs are restricted to have no mutable global states with little to no typing, the programs being written reflect something closer to natural human language while drastically reducing the amount of time spent debugging a program by reducing the amount of nuance the program holds in managing memory at any given step in the compilation process. Such issues rarely, if ever, occur with functional/declarative expression.
+
+For one example, recently, I've had to get back into using Python for scientific computing for my introductory Physics course at UBC, and in the process of the familiarizing the class to Python, our Physics teaching team held an optional drop-in tutorial on basic algorithmic thinking in Python, with one particular challenge being the second question of ProjectEuler, calculating the sum of all of the even fibonnaci numbers under 4 million in value.
+
+Given such a problem, the standard C solution would be the following:
+
+{% highlight c %}
+#include <stdio.h>
+#include <stdint.h>
+
+int main()
+{
+    uint64_t current = 2, previous 1;
+    uint64_t next = current + previous;
+    uint64_t sum = next;
+    while (current < 4000000L) {
+        previous = current;
+        current = next;
+        next = previous + current;
+        if (next % 2 == 0)
+            sum += next;
+    }
+    printf("%lld\n", sum);
+}
+{% endhighlight %}
+
+Now, of course, this could easily be optimized. Assuming we can calculate the number of fibonacci numbers that we will encounter before reaching an even number greater than 4 million (at least, for C, where there are no dynamic arrays), we could generate a lookup table associating the fibonacci number to its index.
+
+{% highlight C %}
+#include <stdio.h>
+#include <stdint.h>
+
+/*
+ * We could write additional code to verify
+ * what value this actually should be, but
+ * this situation only applies in cases
+ * where we do not have dynamic arrays.
+ */
+#define FIB_COUNT_BELOW_FOUR_MIL = 10000
+
+int main()
+{
+    uint64_t fibonacci_numbers[FIB_COUNT_BELOW_FOUR_MIL];
+
+    fibonacci_numbers[0] = 1;
+    fibonacci_numbers[1] = 2;
+    uint16_t index = 2;
+    uint64_t sum = 0;
+
+    while (fibonacci_numbers[index-1] < 4000000) {
+        fibonacci_numbers[index] = fibonacci_numbers[index-1] + fibonacci_numbers[index-2]; 
+        if (fibonacci_numbers[index-1] % 2 == 0)
+            sum += fibonacci_numbers[index-1];
+    }
+
+    printf("%lld\n", sum);
+}
+{% endhighlight %}
+
+Now this method of writing the function doesn't have much outward time optimization, but certainly makes the program a bit more readable. However, we can do much better than this.
+
+{% highlight C %}
+#include <stdio.h>
+#include <stdint.h>
+
+/*
+ * We could write additional code to verify
+ * what value this actually should be, but
+ * this situation only applies in cases
+ * where we do not have dynamic arrays.
+ */
+#define FIB_COUNT_BELOW_FOUR_MIL = 10000
+
+uint64_t fibonacci_numbers[FIB_COUNT_BELOW_FOUR_MIL];
+
+uint64_t fib(uint16_t index)
+{
+    if (index == 0)
+        return 1;
+    if (index == 1)
+        return 2;
+
+    /*
+     * Here, our fibonacci numbers array serves
+     * as a sort of caching system
+     */
+    if (fibonacci_numbers[index] == 0)
+        fibonacci_numbers[index] = fib(index-1) + fib(index-2);
+    
+    return fibonacci_numbers[index];
+}
+
+int main()
+{    
+    fibonacci_numbers[0] = 1;
+    fibonacci_numbers[1] = 2;
+
+    uint16_t index = 0;
+    uint64_t current = 0, sum = 0;
+
+    while (current < 4000000) {
+        current = fib(index);
+        if (current % 2 == 0)
+            sum += current;
+        index++;
+    }
+
+    printf("%lld\n", sum);
+}
+{% endhighlight %}
+
+Then, translated to python, the answer would look something like this:
+
+{% highlight python %}
+fib_table = []
+
+def fib(n):
+    if n == 0:
+        return 1
+    if n == 1:
+        return 2
+    if fib_table[n] == 0:
+        fib_table[n] = fib_table[n-1] + fib_table[n-2]
+    return fib_table[n]
+
+index = 0
+sum = 0
+current = fib(index)
+
+while current < 4000000:
+    if current % 2 == 0:
+        sum += current
+    index += 1
+    current = fib(index)
+
+print(sum)
+{% endhighlight %}
+
+And finally, in Lisp, we see this representation:
+
+{% highlight common_lisp %}
+(defparameter fib-table (list 1 2))
+(defun fib (n) 
+    (progn
+        (if (= (+ n 2) (list-length fib-table))
+            ())))
+(loop while ()
+    do ())
+{% endhighlight %}

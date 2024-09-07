@@ -125,12 +125,19 @@ I genuinely don't think any other band will actually be able to come close to th
     - Beautiful and Broken
     - Whiplash
 
+*2024/9/5 -> Quick note about bôa: I actually won two tickets to see bôa live in Seattle (which is about 4 or so hours from Vancouver) through a raffle held on their Discord, but unfortunately, I ended up forfeiting the tickets to another contestant because I have a Chemistry lab that day! :'(*
+
 ### Others
 
-- Floatie
+- Voyage Out by Floatie
+
+I'm not going to lie. I feel like Floatie has successfully emotionally edged their fanbase. They released one, lone, absolutely-drop-dead-amazing album ("Voyage Out") and then has proceeded to not release any further music. This album is one of my all-time favorites and every single song on the album is a deeply-resonating classic jam to me.
+
 - The Gorillaz
-- F Song by Strawberry Guy
-- Insomniac by Memo Boy
+- F Song by Strawberry Guy and Insomniac by Memo Boy
+
+These two songs are classic depression bops. Yes, they were nabbed right out of a TikTok for-you page (don't worry, I have absolutely no intention of continuing use of TikTok in pretty much any capacity.
+
 - Tek It by Cafune
 - to hell with it by PinkPantheress
     - Last Valentines
@@ -140,15 +147,78 @@ I genuinely don't think any other band will actually be able to come close to th
     - I Must Apologize
     - Break It Off
 - Boy's a Liar by PinkPatheress
-- Washing Machine Heart by Mitski
+- Washing Machine Heart and Nobody by Mitski
 - Frou Frou
     - Let Go
     - A New Kind of Love
 
 ## Soundcloud Rap Plus
 
+### Tyler, the Creator
+
+- Bastard
+    - Bastard
+    - Odd Toddlers
+- Goblin
+    - Yonkers
+    - Tron Cat
+- Wolf
+    - Wolf
+    - Jamba
+    - 48
+    - Colossus
+    - IFHY
+    - Trashwang
+    - Treehome95
+    - Tamale
+- Cherry Bomb
+    - Deathcamp
+    - Buffalo
+    - Fucking Young / Perfect
+- Scum Fuck Flower Boy
+    - Where This Flower Blooms
+    - See You Again
+    - Who Dat Boy
+    - I Ain't Got Time!
+    - 911/Mr. Lonely
+    - November
+- Igor
+    - Earfquake
+    - New Magic Wand
+    - A Boy Is A Gun
+- Call Me If You Get Lost
+    - Lumberjack
+    - Hot Wind Blows
+    - Wilshire
+    - Sir Beaudelaire
+    - Blessed
+    - Sweet / I Thought You Wanted to Dance
+
+Call Me If You Get Lost is another one of my absolute favorite of all time golden albums. Every single song on this album is a genuinely amazing track to me, but of these songs, the aforementioned ones are my downright favorites.
+
+### Playboi Carti
+
+- Singles
+    - Magnolia
+    - Wokeuplikethis
+    - Miss the Rage
+- Die Lit
+    - Long Time
+    - Lean 4 Real
+    - Fell in Luv
+
+### M.F. Doom
+
+
+
+### Kanye West
+
+- Graduation
+- Late Registration
+
+### Everybody Else
+
 - Kendrick Lamar
-- Tyler, the Creator
 - DaBaby
 - Denzel Curry
 - Earl Sweatshirt
@@ -156,10 +226,7 @@ I genuinely don't think any other band will actually be able to come close to th
     - Earl
     - ThisNiggaUgly
     - EpaR
-- Playboi Carti
 - Eminem
-- Kanye West
-- MF Doom
 - Notorious B.I.G.
 - 2Pac
 - Lil Mabu
