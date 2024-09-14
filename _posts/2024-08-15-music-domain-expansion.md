@@ -55,7 +55,9 @@ Moving forward, I've actually got a bit of a plan as to how I'll work to diversi
 For a picture of what I've been trying to listen to, here's a list of some of them alongside my thoughts surrounding each band/song/album/etc.:
 
 - Aurora Avenue
+    - I actually quite like it. I've listened to a good amount of their songs now, and I can say for certain that I'm a fan.
 - Lamp
+    - I've actually been listening to Lamp for a bit prior to when they were first recommended to me. I actually just never properly got into them, quite like Massive Attack. I like the vibe of their music, and in particular, one of my favorite songs of theirs is "Hatachi no Koi."
 - Tom Odell
 - Gang of Youths
 - Sufjan Stevens
