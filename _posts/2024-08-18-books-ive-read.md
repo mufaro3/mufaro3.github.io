@@ -9,47 +9,90 @@ tags:
     - in-progress
 ---
 
-Surprisingly, for a terminally online computer scientist, I actually really, *really* like to read. 
-
 The following is a list of various books I've read across differernt genres, with some descriptions or a set of my thoughts. Anything incredibly long will just get a separate blog post.
 
-## Books I read in 2024-25
+## Books I read in 2024-25 (somewhat in order)
 
-- Julius Caesar by William Shakespeare 
+- Julius Caesar by William Shakespeare (6/10) 
+  - I loved the part where Julius Caesar actually dies. I wish it were longer and 10x more dramatic.
+- Beowulf (4/10)
+  - Beowulf was a Gary Stu. Plus, the whole book is whitewashed.
+- The Crucible by Arthur Miller (5/10)
+  - It was a little boring. Maybe I'm just too removed from the time period.
+- Lolita by Vladimir Nabokov (10/10)
+  - Deserves its own post entirely.
+- The Metamorphosis by Franz Kafka (6/10)
+  - It was a good way to kill time on the train. I thought it was well-written.
+- The Autobiography of Malcolm X (6/10)
+  - Taught me a whole lot about the history of the civil rights movement.
+- The Hound of the Baskervilles by Sir Arthur Conan Doyle (6/10)
+  - It was a little obvious who did it.
+- Thermodynamics by Enrico Fermi (5/10)
+  - Fermi can be a bit confusing at times. I wish he would begin by introducing a concept or equation and then go back to principles to derive up to that point rather than deriving up to a point and then explaining it. It left me with a lot of flipping back-and-forth.
+- How to Invest 50-5000 Dollars by Nancy Duncan (6/10)
+  - Very straight-to-the-point and gives solid advice. I thought it was fairly good.
+- Think and Grow Rich by Napoleon Hill (3/10)
+  - It's like the book version of the alpha male content you see online. For every ten statements the guy makes about how your mentality will somehow make you wealthy, about 3 of them are actually worth something. However, when he says something really useful, it's actually really useful.
+- The Picture of Dorian Gray by Oscar Wilde (8/10)
+  - It was a very enjoyable experience.
 
 ## Books I read in 2023-2024
 
-- The Silent Patient by Alex Michaelides
-- A Good Girl's Guide to Murder by Holly Jackson
-- 1984 by George Orwell
-- A Brave New World by Aldous Huxley
-- The Trial by Franz Kafka
-- The Stranger by Albert Camus
-- A Study in Scarlet by Sir Arthur Conan Doyle
-- The Secret History by Donna Tartt
-- The Catcher in the Rye by J.D. Salinger
-- A Clockwork Orange by Anthony Burgess
+- The Silent Patient by Alex Michaelides (9/10)
+  - Really well-done plot twist.
+- A Good Girl's Guide to Murder by Holly Jackson (5/10)
+  - Not that well-done of a plot twist.
+- 1984 by George Orwell (11/10)
+  - Deserves it's own post.
+- A Brave New World by Aldous Huxley (11/10)
+  - Deserves it's own post.
+- The Trial by Franz Kafka (8/10)
+  - I really loved this book. I loved it a lot.
+- The Stranger by Albert Camus (7/10)
+  - It was exactly as long as it needed to be.
+- A Study in Scarlet by Sir Arthur Conan Doyle (8/10)
+  - The reveal of who-dun-it was actually really good.
+- The Secret History by Donna Tartt (6/10)
+  - The first half was life-changingly good and the second half was extremely boring.
+- The Catcher in the Rye by J.D. Salinger (10/10)
+  - Deserves its own post.
+- A Clockwork Orange by Anthony Burgess (11/10)
+  - Deserves its own post.
 
 (I know these are plays, not books, but bear with me here)
 
-- Twelfth Night by William Shakespeare
-- Hamlet by William Shakespeare
+- Twelfth Night by William Shakespeare (6/10)
+  - Kind of boring.
+- Hamlet by William Shakespeare (9/10)
+  - Still my favorite of Shakespeare's.
+- A Comedy of Errors (6/10)
+  - It really wasn't that funny.
 
 ## Books I read prior
 
-- Animal Farm by George Orwell
-- The Adventures of Huckleberry Finn by Mark Twain
-- Tender is the Flesh by Augustina Bazterrica
-- The Great Gatsby by F. Scott Fitzgerald
-- Fahrenheit 451 by Ray Bradbury
+- Animal Farm by George Orwell (8/10)
+  - It's a bit in-your-face, but what I love is how both sides of the economic ideal dividing line believed it to be a criticism of the other (and only the other), rather than both. Communists touted it as an amazing criticism of capitalism and the capitalists touted it as an amazing criticism of communism. I remember learning about it in high school around 16 years old. It's a criticism of human nature and greed.
+- The Adventures of Huckleberry Finn by Mark Twain (6/10)
+  - It was okay.
+- Tender is the Flesh by Augustina Bazterrica (6/10)
+  - I think I was just in the wrong headspace for this book.
+- The Great Gatsby by F. Scott Fitzgerald (11/10)
+  - Deserves its own post.
+- Fahrenheit 451 by Ray Bradbury (8/10)
+  - Truly an amazing story.
 
 ## Books that I've started previously but still have yet to finish
 
-- Lord of the Flies by William Golding
-- The Autobiography of Malcolm X by Malcolm X and Alex Haley
 - Jihad vs. McWorld by Benjamin R. Barber
 - The Plague by Albert Camus
-- Lolita by Vladimir Nabokov
+- This Side of Paradise by F. Scott Fitzgerald
+- Investing for Canadians for Dummies by Eric Tyson and Tony Martin
+- The Essentials of Statistics for Business and Economics by Anderson et al.
+
+## Books that I have begun to read and stopped (have litte/no intention to finish)
+
+- Lord of the Flies by William Golding
+- Physics by Aristotle
 
 ## Books I have yet to read and are currently in my possession/on my shelf
 
@@ -60,16 +103,13 @@ The following is a list of various books I've read across differernt genres, wit
 - The Complete Prose of Woody Allen by Woody Allen
 - The Holy Bible, New International Edition
     - Particularly the books of Levitacus, Job, Genesis, and Matthew.
-- Beowulf
-- The Picture of Dorian Gray by Oscar Wilde
 - The Federalist Papers by Alexander Hamilton, James Madison, and John Jay
 - The Odyssey by Homer
 - Tambaoga Mwanangu by Giles Kuimba
-- The Crucible by Arthur Miller
+- Catch-22 by Joseph Heller
 
 ## Books I have yet to read and I do not currently own
 
-- Catch-22 by Joseph Heller
 - Anna Karenina by Leo Tolstoy
 - Crime and Punishment and The Brothers Karamazov by Fyodor Dostoevsky
 - The Call of Cthulu and Other Weird Stories by H.P. Lovecraft
@@ -83,9 +123,9 @@ The following is a list of various books I've read across differernt genres, wit
 - Of Mice and Men and The Grapes of Wrath by John Steinbeck
 - Frankenstein by Mary Shelley
 - Doctor Faustus by Christopher Marlowe
-- The Metamorphosis by Franz Kafka
 - Moby Dick by Herman Melville
 - The Fountainhead by Ayn Rand
+- Infinite Jest by David Foster Wallace
 - The Count of Monte Cristo by Alexander Dumas
 - The Decameron by Giovanni Boccaccio
 - The Iliad by Homer

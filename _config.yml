@@ -1,20 +1,12 @@
 # Site settings
-title: "nickelulz.xyz"
-domain: nickelulz.github.io
+title: "moofy.org"
+domain: moofy.org
 baseurl: "/"
-url: "https://nickelulz.xyz"
-guestbook_url: "http://users.smartgb.com/g/g.php?a=s&i=g19-01585-99" 
-
+url: "https://moofy.org"
+github_source_link: "https://github.com/mufaro3/mufaro3.github.io"
+  
 # messages of the day
-motds: [ 
-  # >le hacker 4chan
-  # '<code>rm -rf /</code>', 
-  # 'delete System32',
-  
-  # sucking terry davis' penis
-  # 'god bless templeOS',
-  # 'all hail Terry Davis',
-  
+motds: [  
   # 1984
   'WAR IS PEACE!',
   'IGNORANCE IS STRENGTH!',
@@ -22,36 +14,14 @@ motds: [
 ]
 
 footer_quotes: [
-  # lain quotes
-  "no matter how real the wired is, the real world will always be more real",
-  "let's all love lain!",
-  "close the world, open the next",
-  
-  # >le hacker 4chan
-  "<code>(format t \"</code>Welcome to the Knights of the λ-Calculus!<code>\")</code>",
-  "smoke crack and install gentoo :)",
-
-  # radiohead references
-  "\"that's it, sir? you're leaving?\"",
-  "fifteen steps .. and then a sheer drop",
-
-  # the smiths
-  "Please excuse me from gym. I have a terrible cold coming on."
+  # nirvana
+  "Forever in debt to your priceless advice"
 ]
 
-# Current Obsessions
-current_read_name: "Lolita"
-current_read_author: "Vladimir Nabokov"
-current_music_vibe: "Soul Eater OST - 4242564"
-
 # Personal Information
-username: "nickelulz"
-public_email: 'nickelulz <span class="normal">at</span> proton <span class="normal">dot</span> me'
-github: "nickelulz"
-instagram: "@notnickelulz"
-steam: "nickel"
-discord: "nickelulz"
-
+public_email: 'mail <span class="normal">at</span> moofy <span class="normal">dot</span> org'
+github: 'mufaro3'
+  
 # Blog Settings
 
 # Build settings

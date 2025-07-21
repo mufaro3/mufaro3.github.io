@@ -3,5 +3,5 @@ layout: blog
 title: "/vg/: Videogames and Interactive Media"
 permalink: /vg
 category: gaming 
-description: The cake is a lie. 
+description: All of the nothing that I play, on full display, always and forever.
 ---

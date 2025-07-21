@@ -1,8 +1,10 @@
 <header>
   <div class="menu">
     <ul>
-      <li><a href="{{ site.url }}" title="Home">[home]</a></li>
-
+      [ &nbsp;
+      <li><a href="{{ site.url }}" title="Home">home</a></li>
+      ] &nbsp;
+      
       [ &nbsp;
       {% assign programming-page = site.pages | where: "name", "programming.md" | first %}
       <li><a href="{{ site.url }}/λ" title="{{ programming-page.title }}">/λ/</a></li>
@@ -17,32 +19,16 @@
       <li><a href="{{ site.url }}/vg" title="{{ gaming-page.title }}">/vg/</a></li>
       ] &nbsp;
 
-      [ &nbsp;
-      <li><a href="{{ site.guestbook_url }}" title="Guest Book (External)">/gb/</a></li>
-      {% assign vitae-page = site.pages | where: "name", "vitae.md" | first %}
-      <li><a href="{{ site.url }}/cv" title="{{ vitae-page.title }}">/cv/</a></li>
-      {% assign papers-page = site.pages | where: "name", "papers.md" | first %}
-      <li><a href="{{ site.url }}/papers" title="{{ papers-page.title }}">/papers/</a></li>
-      ] &nbsp;
     </ul>
   </div>
 
   <div>
-    <h1>[ <span class="green">{{ site.title | flip_animate }}</span> ]: "<span class="serif italic">{{ site.motds | sample }}</span>"</h1>
+    <h1>[ <span class="green">{{ site.title | flip_animate }}</span> ]: "<span class="">{{ site.motds | sample }}</span>"</h1>
     <div id="contact-container">
       <ul id="contact">
-        <li>email:      <span class="emph mono">{{ site.public_email }}</span></li>
-        <li>github:     <span class="emph mono">{{ site.github }}</span></li>
-        <li>instagram:  <span class="emph mono">{{ site.instagram }}</span></li>
-        <li>discord:    <span class="emph mono">{{ site.discord }}</span></li>
-        <li>steam:      <span class="emph mono">{{ site.steam }}</span></li>
+        <li>e-mail:  <span class="emph mono">{{ site.public_email }}</span></li>
+        <li>github: <span class="emph mono">{{ site.github }}</span></li>
       </ul>
     </div>
-  </div>
-
-  <br>
-  <div>
-    Current Read: <span class="mono emph">"{{ site.current_read_name }}"</span> by <span class="mono emph">{{ site.current_read_author }}</span>
-    Latest Musical Vibe: <span class="mono emph">{{ site.current_music_vibe }}</span>
   </div>
 </header>

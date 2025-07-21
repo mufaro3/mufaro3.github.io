@@ -1,13 +1,14 @@
 ---
 layout: post
-title:	"on the crossroads of audiophilia and indecision"
+title:	"songs! songs! songs!"
 date:   2024-08-15 6:12:00	
 categories:
     - media 
 tags:
     - music
-    - in-progress
 ---
+
+**Update July 21, 2025:** *I'm really not happy with this post. It's kind of complete shit. I don't really care enough to expand my music taste like I was at the time of writing it. The way that I approach music entirely is generally different now, I don't really go out of my way to listen to new things. I'm not much of an audiophile anyway. I also changed the title. The original title was "on the crossroads of audiophilia and indecision," and I've changed it to "songs! songs! songs!" because the original title made me cringe a little bit.* 
 
 I am quite proud of how awful my music taste is. In the first place, I don't particularly have a complete sense of what kind of music I *actually* like, and all of my playlists are quite a bit closer to being ragtag collections of various songs that I've simply crossed paths with over time rather than being well-refined sets of tunes designed to fit a specific mood or purpose at any given point in time. I've once joked that my music taste will have a song like <span class="emph">"Paranoid Android" by Radiohead</span> (which, *FYI*, is my favorite song of all time) followed shortly after by something like <span class="emph">Die Very Rough by Mario Judah</span> <span class="unemph small">(gay parody)</span>.
 
@@ -58,9 +59,5 @@ For a picture of what I've been trying to listen to, here's a list of some of th
     - I actually quite like it. I've listened to a good amount of their songs now, and I can say for certain that I'm a fan.
 - Lamp
     - I've actually been listening to Lamp for a bit prior to when they were first recommended to me. I actually just never properly got into them, quite like Massive Attack. I like the vibe of their music, and in particular, one of my favorite songs of theirs is "Hatachi no Koi."
-- Tom Odell
-- Gang of Youths
-- Sufjan Stevens
-- King Crimson
 
 I'll post reviews for everything eventually! Feel free to send me more!
