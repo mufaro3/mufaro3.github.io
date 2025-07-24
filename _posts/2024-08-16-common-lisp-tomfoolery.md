@@ -1,12 +1,11 @@
 ---
 layout: post
-title:	"learning common lisp through sheer stupidity"
+title:	"a first look at common lisp"
 date:	2024-08-16 12:32:35
 categories:
     - programming
 tags:
     - common-lisp
-    - in-progress
 ---
 
 I have no idea how to program in Common Lisp, so I decided to learn for a number of reasons, the main of which being the potential to expand my methodology in respect to writing effective computer programs. *And let me just say, this has not been an easy process.*
@@ -303,14 +302,50 @@ while current < 4000000:
 print(sum)
 {% endhighlight %}
 
-And finally, in Lisp, we see this representation:
+### update: july 24, 2025
 
-{% highlight common_lisp %}
-(defparameter fib-table (list 1 2))
-(defun fib (n) 
+This is a bad post. Sort of. It was really my first venture into Common Lisp, and you can seriously tell how inexperienced I was when I was writing it. I had horribly incorrect conventions, like using snake case (ew) or putting permanent comments with only one semicolon. A lot of the information at the very top was good, and I still agree with that, but there is a lot I'd like to change.
+
+First of all, I actually did go back and solve the Advent of Code problem from before. Here is my solution in Lisp:
+{% highlight lisp %}
+(ql:quickload :str)
+(ql:quickload :cl-ppcre)
+
+(defun replace-nums (line)
+    (let ((replacement-dict
+            '((:one   . 1) (:two   . 2) (:three . 3)
+              (:four  . 4) (:five  . 5) (:six   . 6)
+              (:seven . 7) (:eight . 8) (:nine  . 9))))
+      (labels ((anycase (s)
+                 (concatenate 'string (string-upcase s) "|" (string-downcase s)))
+               (digit-replace (str pair)
+                 (cl-ppcre:regex-replace-all
+                  (anycase (symbol-name (car pair))) str (write-to-string (cdr pair)))))
+        (reduce #'digit-replace replacement-dict :initial-value line))))
+
+(progn
+  (format t "~%~%")
+  (let ((total 0))
     (progn
-        (if (= (+ n 2) (list-length fib-table))
-            ())))
-(loop while ()
-    do ())
+      (with-open-file (stream "input.txt" :direction :input)
+        (do ((line (read-line stream nil 'eof)
+                   (read-line stream nil 'eof)))
+            ((eql line 'eof))
+          (let* ((replaced-nums (replace-nums line))
+                 (letters-removed (cl-ppcre:regex-replace-all "[a-zA-Z]" replaced-nums ""))
+                 (n (length letters-removed))
+                 (edges-only (concatenate
+                              'string
+                              (subseq letters-removed 0 1)
+                              (subseq letters-removed (1- n) n)))
+                 (final-score (parse-integer edges-only)))
+            (format t "~A -> ~A -> ~A -> ~A~%" line replaced-nums letters-removed edges-only)
+            (setq total (+ total final-score)))))
+      (format t "Final Score: ~D~%" total))))
 {% endhighlight %}
+
+Well.. almost, anyway. It's not really complete. It works for day one, but it doesn't replace the words in the correct order for day 2 (which I would still need to do, but I'm too lazy to do it).
+
+Anyway, a lot of things have changed since I wrote this post. I took a proper university course on Racket (*How to Design Programs*), a child language of Lisp, and did fairly well. I didn't actually like the course all that much, though. I think that course deserves its own post to explain my thoughts on it, as I hold somewhat complicated opinions about it, but I felt that they pushed extremely restrictive and almost draconian codewriting practices that largely don't have a bearing on even writing the lisp I've written afterward, and as a result, a lot of the course is spent focusing on things that largely don't matter, making the course kind of counterproductive. The grading scheme was really bad, focusing on certain issues that hardly even matter and ignoring potential problems that really do. 
+
+Of course, again, I know this is an extremely vague description, but going any further would require a full breakdown on my thoughts about *How to Design Programs*. What I would have preferred as my introduction to Lisp over a programming structure/design class like HtDP or Sussman's *Structure and Interpretation of Computer Programs* would have been a proper language class centered purely around using the language as it is rather than software design principles, like using Paul Graham's *ANSI Common Lisp* (which I have found incredibly useful as a resource the past couple of months). 

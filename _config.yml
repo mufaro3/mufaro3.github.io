@@ -14,8 +14,10 @@ motds: [
 ]
 
 footer_quotes: [
-  # nirvana
-  "Forever in debt to your priceless advice"
+  "Forever in debt to your priceless advice",
+  "Close the world, open the next",
+  "That's it sir? You're leaving?",
+  "Please excuse me from gym, I have a terrible cold on."
 ]
 
 # Personal Information
