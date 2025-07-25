@@ -2,6 +2,7 @@
 layout: post
 title:  "linear algebra, thermodynamics, special relativity, and grueling pain"
 date:   2025-07-24 11:03:00
+comments: true
 categories:
     - programming
 tags:

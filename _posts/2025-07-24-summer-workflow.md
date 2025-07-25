@@ -2,6 +2,7 @@
 layout: post
 title:  "Summer Workflow, Updates, and Having Fun"
 date:   2025-07-24 20:24:06
+comments: true
 categories:
     - personal
 tags:

@@ -2,6 +2,7 @@
 layout: post
 title:  "a look into a quantum mechanical carnot engine (alongside a bit of python)"
 date:   2025-07-24 12:19:00
+comments: true
 categories:
     - programming
 tags:

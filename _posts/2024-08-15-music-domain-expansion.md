@@ -2,6 +2,7 @@
 layout: post
 title:	"songs! songs! songs!"
 date:   2024-08-15 6:12:00	
+comments: true
 categories:
     - media 
 tags:

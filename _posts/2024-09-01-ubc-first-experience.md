@@ -2,6 +2,7 @@
 layout: post
 title:	"college!"
 date:	2024-09-01 7:39:00
+comments: true
 categories:
     - personal
 tags:

@@ -19,6 +19,7 @@ cat <<EOF > "$FILENAME"
 layout: post
 title:  "$1"
 date:   $DATETIME
+comments: true
 categories:
     - category
 tags:

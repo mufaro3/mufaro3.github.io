@@ -2,6 +2,7 @@
 layout: post
 title:	"books i've read"
 date:   2024-08-18 
+comments: true
 categories:
     - media 
 tags:

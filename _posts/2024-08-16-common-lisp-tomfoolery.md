@@ -2,6 +2,7 @@
 layout: post
 title:	"a first look at common lisp"
 date:	2024-08-16 12:32:35
+comments: true
 categories:
     - programming
 tags:
