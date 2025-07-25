@@ -33,9 +33,7 @@ def calculate_energy(mass, level, width):
     return (np.pi * constants.hbar * level) ** 2 / (2 * mass * width)
 {% endhighlight %}
 
-where $$V$$ is the volume of the potential well that the wavefunction inhabits (which, in only one dimension, is synonymous with the width or length of the well, which we will denote $$w=V$$) and $$m$$ is the mass of the particle/quantum object, allowing us to calculate the total energy of the system as a function of the width of the one-dimensional potential well as
-
-$$E_\psi(w) = \sum_{i=n}^{\infty} E_n(w).$$
+where $$V$$ is the volume of the potential well that the wavefunction inhabits (which, in only one dimension, is synonymous with the width or length of the well, which we will denote $$w=V$$) and $$m$$ is the mass of the particle/quantum object.
 
 From there, we can calculate the probability distribution of eigenstates with 
 
