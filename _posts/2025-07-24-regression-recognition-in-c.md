@@ -2,6 +2,7 @@
 layout: post
 title:  "Regression and Recognition in C"
 date:   2025-07-24 13:42:18
+comments: true
 categories:
     - programming
 tags:

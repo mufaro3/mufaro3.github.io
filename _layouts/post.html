@@ -7,7 +7,7 @@ layout: page
   <header class="post-header">
     <p class="meta">
         {{ page.date | date: "%b %-d, %Y" }} 
-        <a href="https://github.com/nickelulz/nickelulz.github.io/blob/master/{{ page.path }}?plain=1">[src]</a>
+        <a href="https://github.com/mufaro3/mufaro3.github.io/blob/master/{{ page.path }}?plain=1">[src]</a>
         {% if page.author %} • {{ page.author }}{% endif %}
         {% if page.meta %} • {{ page.meta }}{% endif %}
         •
@@ -23,4 +23,5 @@ layout: page
 		If you like my posts, feel free to subscribe to my <a href="{{ site.url }}/feed.xml">RSS Feed</a>.
 	</p>
 
+  {% include disqus.html %}
 </div>

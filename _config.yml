@@ -4,6 +4,9 @@ domain: moofy.org
 baseurl: "/"
 url: "https://moofy.org"
 github_source_link: "https://github.com/mufaro3/mufaro3.github.io"
+
+# disqus
+disqus_shortname: moofydotorg
   
 # messages of the day
 motds: [  
