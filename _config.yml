@@ -29,6 +29,7 @@ github: 'mufaro3'
 # Build settings
 markdown: kramdown
 kramdown:
+  input: GFM
   math_engine: mathjax
 permalink: /posts/:title/
 safe: false
