@@ -171,6 +171,10 @@ Tensor2D_sq_inverse ( Tensor2D *t )
 
 As you can see, it really was not fun to write, and I even still have debug prints all over the place and an unfinished TODO sitting at the top of the function. It's a real mess. However, if it works, it works, so once it worked once, I called it a day.
 
+![The Final Result]({{ 'images/posts/regression-success.png' | relative_url }})
+
+*The final result! It worked!*
+
 This bit taught me quite a bit about writing mathematical code in C. It's a hassle, but rewarding. The urge to use a library is always so strong, but if you resist and write your own, you'll feel real proud.
 
 ### Image Recognition
@@ -369,6 +373,10 @@ model_train ( Model *model, Dataset *dataset, const size_t epochs )
 {% endhighlight %}
 
 Now, in practice, my code entirely sucks. The model tends to guess correctly about 1/3 of the time, which is pretty bad, but to be expected for this situation. At least I was fairly proud of it!
+
+![The Final Result for the Image Classifier]({{ 'images/posts/classifier-success.png' | relative_url }})
+
+*The classifier worked! Huzzah! Works cannot begin to explain how ecstatic I was to see it work even somewhat, despite only guessing correctly about 35% of the time.*
 
 [1] "Linear Least Squares" on Wikipedia. [Link](https://en.wikipedia.org/wiki/Linear_least_squares#Fitting_a_line) <br>
 [2] "Softmax Function" on Wikipedia. [Link](https://en.wikipedia.org/wiki/Softmax_function)
