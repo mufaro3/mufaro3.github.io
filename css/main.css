@@ -275,18 +275,19 @@ img {
 
 
 iframe {
-  width: 750px;
-  height: 500px;
+  width: 98%;
+  height: 22em;  
+  max-height: 30em;
   border: 1px dashed var(--separator);
   padding: 8px;
-		margin-bottom: 10px;
+  margin-bottom: 10px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
 
 .feed-recomendation {
-	border-top: 1px dashed var(--separator);
+  border-top: 1px dashed var(--separator);
   padding-top: 1em;
 }
 
