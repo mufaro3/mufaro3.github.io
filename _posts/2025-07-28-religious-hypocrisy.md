@@ -4,15 +4,15 @@ title:  "The Hypocrisy of Religious Supremacy and Cultural \"Civility\""
 date:   2025-07-28 06:26:50
 comments: true
 categories:
-    - personal
+    - essay
 tags:
     - political
-    - essay
+    - religion
 ---
 
 I recently saw an American, Christian white woman exclaim on social media how its not unreasonable to be afraid or suspicious of muslims due to their supposedly violent nature. In particular, she went so far as to claim that islamophobia isn't real, and is simply a made-up, dismissive term to ignore real concerns and kill any actual discussion about the actions of muslims within western nations like the United States.
 
-Obviously, this woman was a clown, but her mentality represents a greater problem within western or historically christian nations: fear hypocrisy. My point is this: we don't understand things that are not integrated into our society and we fear things we don't understand, and this sense of fear is self-supporting by events that are caused either in part or in whole by this fear or hate. Things, such as events or people, that support such conclusions are taken in full and things that do not are quickly ignored, all because the image of the status quo in the minds of the masses must be maintained at all costs.
+Obviously, this woman was largely just fearmongering, but her mentality represents a greater problem within western or historically christian nations: fear hypocrisy. My point is this: we don't understand things that are not integrated into our society and we fear things we don't understand, and this sense of fear is self-supporting by events that are caused either in part or in whole by this fear or hate. Things, such as events or people, that support such conclusions are taken in full and things that do not are quickly ignored, all because the image of the status quo in the minds of the masses must be maintained at all costs.
 
 To begin with this discussion, I have to put forward an idea for understanding how people in the world act. We must first begin with the axiom that every person in the world lives with the goal of being happy, and that we each act in whatever way we believe will eventually lead us to achieving what we believe as happiness in our lives. What is important to understand, therefore, is that different people have vastly different ideas of happiness in their minds, and psychologically, it's most reasonable to believe that the ideal world people envision in which they can be most happy is heavily related to the world in which they grew up. Many people fight outwardly to the world (such as in politics) with the hope of somehow realizing a world they once knew, a world from a time when they felt as though they were happy.
 

@@ -4,10 +4,10 @@ title:  "George Orwell's Animal Farm, and Rambling Gripes About Capitalism v. Co
 date:   2025-07-25 12:45:47
 comments: true
 categories:
-    - media
+    - essay
 tags:
     - political
-    - essay
+    - economics
 ---
 
 *I feel as though I need to preface this post. I'm writing this on a plane-ride across the country and I haven't read Animal Farm or brushed up on economic systems/theory in years at this point. This is, quite literally, just a longer version of a thought I had in the bath a few days ago. There will not be citations because this is not an academic paper in any way. It's just a blog post of me ranting.*
