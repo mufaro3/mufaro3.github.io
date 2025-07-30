@@ -27,4 +27,3 @@ On each recompile of the website (which results upon every update), these change
 It's quite a bit of fun to sit down and write these articles. I suggest that everyone should have a blog, honestly. The beauty of the internet, in my opinion, is that you can cast out into the void whatever thoughts you think are relevant enough to share, and with so little as an email, the void can respond.
 
 ![The Album Cover of Life by the Cardigans]({{ 'images/life.jpg' | relative_url }})
-
