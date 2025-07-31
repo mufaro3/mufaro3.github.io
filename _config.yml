@@ -30,6 +30,7 @@ github: 'mufaro3'
 # Blog Settings
 
 # Build settings
+markdown_ext: "md"
 markdown: kramdown
 kramdown:
   input: GFM
