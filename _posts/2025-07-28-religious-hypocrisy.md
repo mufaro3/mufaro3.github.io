@@ -8,6 +8,7 @@ categories:
 tags:
     - political
     - religion
+    - society
 ---
 
 I recently saw an American, Christian white woman exclaim on social media how its not unreasonable to be afraid or suspicious of muslims due to their supposedly violent nature. In particular, she went so far as to claim that islamophobia isn't real, and is simply a made-up, dismissive term to ignore real concerns and kill any actual discussion about the actions of muslims within western nations like the United States.

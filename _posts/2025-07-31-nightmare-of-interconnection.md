@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "The Nightmare of Interconnection"
+date:   2025-07-31 17:12:20
+comments: true
+categories:
+    - essay
+tags:
+    - society
+    - philosophy
+---
+
+The nightmare of interconnection is simple: it's the extension of the perils of individual connections extended to scale of entire networks of conjoined masses. It's the ripple effect of the transfer of information and ideas from one person to another, the basket of negative effects that continuously seems to arise time and time again both to and from the torment of the masses involved. The nightmare of interconnection, as I choose to refer to it, is something like the underlying beast in systems of people: mob mentality, herd culture, gossip, tyranny of the majority, and so on.
+
+It certainly feels like much of the anti-central establishment ideology and conspiracy theories around shadowy organizations designed to control the masses ever-so-slightly miss the mark of the truth, as the true horror of this nightmare is that individuals are never truly in control or free. Rather, it's the hidden, invisible beast of interconnection that dominates absolutely everything, and those who hold any power simply find tricky ways to influence the beast's actions.
+
+I understand that this may come across as an overcomplicated definition or overly-dramatic description of the problems that can arise from people in mass-networks acting as herds, as countless people have studied its patterns and effects throughout history (look no further than the rise of the Nazis, it's puzzled sociologists for decades just how good-natured Germans could be driven to believe in such racist and vile ideas), but I have chosen to represent it as something like a hidden beast intentionally. It's the rawest form of humanity: our collective subconscious ideas and desires, and our formation of organized, hierarchical, worker-bee society has sharpened the fangs of the beast as it grew in power alongside the growth of organized civilization itself.
+
+And now, we find ourselves at firmly settled into a new era, one with rapid interconnection of fiber-optic speed. At all times, all peoples connected to the internet are connected to each other, and with this, we connect with far more than merely just our thoughts, jokes, purchases, and the like. We connect our identities, our desires, and [our insecurities]({{ site.url }}/posts/cosmetics-and-appearances/).
+
+The more we interconnect, the more we lose our sense of self. We become another face in the mob, another like or comment in a sea. And who, just who, is truly in charge? Many point to those who profiteer, the businessmen and polticians that hold the power to influence the actions of the mob, to push advertisements to affect the desires and convictions of the masses to get them to purchase their products or serve in their militaries or otherwise subscribe to their ideals.
+
+However, these people are no more capable of controlling of the collective subconscious than a sailor can control the sea. The nightmare of interconnection, the terrors from the collective subconscious, can be studied, affected, manipulated, and finally exploited in much the way the ocean has for thousands of years, but despite the immense impact humanity has had on the ocean, we still hardly have anything even remotely close to a sense of control over it. The irony of attempts to control the societal subconscious in any form is that any affectation given to it is simultaneously an affectation given to the self. All people within it, meaning all humans, are affected by it through history (as all events, too, are connected). It's like Milo Minderbinder's syndicate in Joseph Heller's *Catch-22*: "Everybody gets a share."
+
+To provide some examples, look at autocratic states run by ideologies of distrust or hate. Those spewing the hate, stoking the passionate fire of a desire for purge or blood within the subconscious of the nation's constituents, can often have that same hate turned right back towards them. Look how quickly Soviet Russia post-revolution could turn against its founders. Lenin was hailed more as an idea than a man, and Trotsky was driven right out of the country only to be later brutally murdered. Look at stories like the assassination of Malcolm X by his own muslims, a betrayal not too unlike the historic assassination of Julius Caesar.
+
+The ideologies or systems these men fight to create become their own worst enemy. Stalin himself was notoriously paranoid of assassination from his closest comrades, fearing that what he had done unto his comrades would be done unto him, leading to the great purge of Soviet Russia where many innocent people were sent to gulags and brutally murdered. Really, it cannot be that Stalin was truly in charge, for he had a master of his own he had to do all in his power to appease throughout his rule. The true kingpin of the USSR was not Joseph Stalin, but rather, it was the all-consuming Bolshevik-turned-Stalinist ideology that was primed to exact its terror on Stalin himself in its quest for constant blood and exact ideological purity, and the only way Stalin could keep its hunger sated to prolong his downfall was to keep maintaining a masquerade of control for as long as he could.
+
+And just think, this behavior of a great fear of the system one has built (a system comprised of fear-based rule) is not the exception for these autocrats (or any leader whatsoever), rather, it's generally the rule. Presidents fear that their constituents will believe that they have betrayed the ideologies that sworn them in, and all representatives are constantly acting such that they can safely secure re-election. 
+
+So, then, I ask again: are these people really in charge? Are individuals, even top executive chairmen of international corporations or political heads-of-state, really to be considered as "running things" as there are? *Is anyone, anybody at all, actually at the wheel of this bus?* It seems so easy to come up with such daydreams of hidden syndicates of unscrupulous, expensive-suited men deciding the world order between coffee-breaks, but I believe the true entity in charge of the state of the world's affairs is much, much more of an uncontrollable, unpredictable nightmare.

@@ -14,6 +14,7 @@ This website is hosted via github pages, a services I am much thankful for, and 
 - [/per/]({{ site.url }}/per), the personal board (where I post about myself and whatever doesn't fit on the other boards),
 - [/med/]({{ site.url }}/med), the media board (where I post about media like books, music, tv shows, and the like), and lastly, 
 - [/vg/]({{ site.url }}/vg), the videogames board (where I post about videogames I like, which are usually fairly old).
+- [/es/]({{ site.url }}/es), the essay board (where I write long ranting posts about some topic or other that's been bugging me, like politics or economics or something something society).
 
 Additionally, you may notice that there are a few quotes or cliches dotted about the place. The website is setup such that it randomly picks certain phrases from a bank in some areas, such as the leading message-of-the-day (or MOTD) at the top of the page, which (as of writing this) is set to shuffle between the three core chants in George Orwell's Nineteen Eighty-Four: "WAR IS PEACE," "IGORANCE IS STRENGTH," and "FREEDOM IS SLAVERY." Similarly, the footer is set to cycle in the same manner between 
 
