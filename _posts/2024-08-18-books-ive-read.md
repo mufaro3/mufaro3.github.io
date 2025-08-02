@@ -36,6 +36,10 @@ The following is a list of various books I've read across differernt genres, wit
   - It's like the book version of the alpha male content you see online. For every ten statements the guy makes about how your mentality will somehow make you wealthy, about 3 of them are actually worth something. However, when he says something really useful, it's actually really useful.
 - The Picture of Dorian Gray by Oscar Wilde (8/10)
   - It was a very enjoyable experience.
+- The Plague by Albert Camus (6/10)
+  - It was okay.
+- Catch-22 (20/10)
+  - Just my kind of book.
 
 ## Books I read in 2023-2024
 
@@ -85,7 +89,6 @@ The following is a list of various books I've read across differernt genres, wit
 ## Books that I've started previously but still have yet to finish
 
 - Jihad vs. McWorld by Benjamin R. Barber
-- The Plague by Albert Camus
 - This Side of Paradise by F. Scott Fitzgerald
 - Investing for Canadians for Dummies by Eric Tyson and Tony Martin
 - The Essentials of Statistics for Business and Economics by Anderson et al.
@@ -107,7 +110,7 @@ The following is a list of various books I've read across differernt genres, wit
 - The Federalist Papers by Alexander Hamilton, James Madison, and John Jay
 - The Odyssey by Homer
 - Tambaoga Mwanangu by Giles Kuimba
-- Catch-22 by Joseph Heller
+- The Beautiful but Damned by F. Scott Fitzgerald
 
 ## Books I have yet to read and I do not currently own
 
