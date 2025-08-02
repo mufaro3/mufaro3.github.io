@@ -252,6 +252,11 @@ a:hover {
 .largefont { font-size: var(--font-size-large); }
 .green { color: var(--green); }
 .red { color: var(--red); }
+.quote {
+    font-family: var(--serif-font);
+    font-style: italic;
+    font-size: var(--font-size-small);
+}
 
 pre {
   background-color: var(--code-block-background);
